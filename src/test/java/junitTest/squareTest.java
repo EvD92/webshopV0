@@ -14,4 +14,4 @@ public class squareTest { // extends TestCase {
 		int output = test.square(5);
 		assertEquals(25, output);
 	}
-}
+}//
