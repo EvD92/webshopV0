@@ -8,7 +8,7 @@ import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 public class BaseDao {
 	private DataSource connectionPool;
 // test//
-	public BaseDao() {
+	public BaseDao() { //HOIHOIEDO
 		try {
 			final String DATABASE_URL_PROP = System.getenv("DATABASE_URL");
 			if (DATABASE_URL_PROP != null) {
