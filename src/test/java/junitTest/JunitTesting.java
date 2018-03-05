@@ -1,7 +1,9 @@
 package junitTest;
 
-public class JunitTesting {
+import org.junit.Test;
 
+public class JunitTesting {
+	
 	public int square(int x) {
 		return x * x;
 	}
